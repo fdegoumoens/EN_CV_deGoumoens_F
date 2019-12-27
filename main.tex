@@ -1,0 +1,304 @@
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+\vspace*{-0.1cm}
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{Micro}\\\textbf{Engineering},
+        \textbf{~~~    Photonics~~~}, %\\\textbf{Web Dev},
+        \textbf{~Micro/Nano~}\\\textbf{Systems},
+        \textbf{~~Electronics~~}\\\textbf{\& EDA},
+        \textbf{Mechanics \&}\\\textbf{Design (CAD)},
+        \textbf{~~~~~~Prog-~~~~~~}\\\textbf{ramming},
+        \textbf{Embedded}\\\textbf{Systems-IoT}
+    }
+\vspace*{-0.4cm}
+}
+
+% Programming skill bars
+\programming{
+{
+    \hspace{-0.15cm}OpticStudio $\bullet$ Adobe CS  $\bullet$ \large \LaTeX / 3
+}, 
+{
+    \hspace{-0.15cm}HTML|CSS|PHP|SQL $\bullet$ Assembly / 4
+}, 
+{
+    \hspace{-0.15cm}Mathematica $\bullet$ MS Office $\bullet$ Java  / 5
+},
+{
+    \hspace{-0.15cm}Catia $\bullet$ Eagle $\bullet$ C\# $\bullet$ Quartus|FPGA / 5.5
+},
+{
+    \hspace{-0.15cm}Matlab $\bullet$ EasyEDA $\bullet$ C|C++ $\bullet$ Python/ 6
+}}
+
+% Projects text
+\projects{
+        \textbf{Nationality} - Swiss \\
+        \textbf{Born on the} 11/03/1996  - \textbf{23 y. o.}\\
+        \textbf{Civil registration} - Bachelor \\
+        \textbf{Adress} - ch. des Plantaz 12, 1180 Rolle
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+\cvname{Frédéric} % Your name
+\cvjobtitle{ de Goumoëns } % Job
+\cvjobtitlebis{ Microengineering - EPFL\\} % Job
+% title/career
+
+\cvlinkedin{/in/fdegoumo}
+
+\cvnumberphone{+41 (0)78 631 89 89} % Phone number
+
+\cvmail{fdeg@bluewin.ch} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\usepackage[nopar]{lipsum}
+
+\begin{document}
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\hfill \scalebox{1.2}{\href{http://fdeg.ch/CV}{\textbf{\textcolor{gray}{fdeg.ch}\textcolor{pblue}{/CV }}\mpoint}} 
+\vspace*{-0.3cm}
+\section{Education}
+\vspace*{-0.1cm}
+
+\begin{twenty} % Environment for a list with descriptions
+    %%
+    %%\twentyitem
+    %%	{2020}
+    %%    {}
+    %%    {Master's Thesis in Photonics at Caltech}
+    %%    {\href{https://www.caltech.edu/}{California Institute of Technology}}
+    %%    {}
+    %%    {Developing a wavefront shaping device in the Biophotonics Lab}
+    %%\\
+    \twentyitem
+    	{2020}
+        {2018}
+        {Master's Student in Microengineering \textnormal{(Aver.: 5.75/6)}}
+        {\href{https://www.epfl.ch/education/master/programs/microengineering/}{EPFL}}
+        {
+        Minor in Photonics with a focus on Embedded Systems, Machine Learning, Image Processing, Nanotechnology and Product Design.\\\null\hfill\href{http://fdeg.ch/CV/EPFL_Results/Master_Statement_of_Results.pdf}{\textbf{Master's courses \& Statement of results \mpoint}} 
+        }
+        {}
+	\twentyitem
+    	{2017}
+        {2014}
+        {BSc., Microengineering \textnormal{(Aver.: 5/6)}}
+        {\href{https://bachelor.epfl.ch/microtechnique}{EPFL}}
+        {
+        Electrical \& Mechanical Eng., Computer Science, Microfabrication.\\\null\hfill\href{http://fdeg.ch/CV/EPFL_Results/Bachelor_Statement_of_Results.pdf}{\textbf{Bachelor's courses \& Statement of results \mpoint}}
+        }
+        {}
+    \twentyitem
+    	{2014}
+        {2011}
+        {Maturity Diploma \textnormal{(Aver.: 5/6)}}
+        {\href{https://www.gymnase-morges.ch/}{Gymnase de Morges}}
+        {
+        Math/Physics and Computer science.
+        }
+        {}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace*{-0.3cm}
+\section{Experience}
+\vspace*{-0.1cm}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitem
+    	{Dec 2019}
+		{Avr 2019}
+        {Chief Electronic Designer}
+        {\href{https://www.ouay.ch/}{Ouay}}
+        {Development of the cellular communication, embedded sensors and powering of the new device intended for the elderly.}
+        {}
+    \twentyitem
+    	{Avr 2019}
+		{Jun 2018}
+        {Intern at LEDsafari, Hardware developer}
+        {\href{http://ledsafari.com/remote-monitoring/}{LEDsafari}}
+        {
+        R\&D and manufacturing of a product for remote monitoring of solar panels. A patent and a  \href{https://www.smarthelio.com/}{\textbf{startup}} came out from this product.
+        }
+        {}
+    \twentyitem
+    	{Nov 2017}
+		{Jul 2017}
+        {Military service}
+        {\href{https://www.vtg.admin.ch/fr/moyens-d-engagement/boden-luft/stinger.html}{Swiss Army}}
+        {
+        Basic training, anti-aircraft soldier (STINGER).
+        }
+        {}
+	\twentyitem
+    	{Jul 2017}
+		{Feb 2017}
+        {Teaching assistant in Analysis IV}
+        {\href{http://edu.epfl.ch/coursebook/fr/analyse-iv-MATH-207-D}{Math section - EPFL}}
+        {
+        Tutoring and supervision of tutorial sessions for second year engineering students for advanced analysis courses. \hfill
+        \href{http://fdeg.ch/Reports/Coursebook_Analyse_IV.pdf}{\textbf{Coursebook \mpoint}}
+        }
+        {}
+    \twentyitem
+   		{Aug 2016}
+		{Jul 2016}
+        {Machine Shop Internship}
+        {\href{https://www.etml.ch/}{ETML}}
+        {Training in the fields of design and production. \hfill
+        \href{http://fdeg.ch/Reports/ETML_Machine_Shop.pdf}{\textbf{Report \mpoint}} 
+        }
+        {}
+    
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\vspace*{-0.3cm}
+\section{Projects}
+\vspace*{-0.1cm}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitem
+    	{Dec 2019}
+		{Sep 2019}
+        {Machine vision microfluidics for single-cell analysis}
+        {\href{https://deplanckelab.epfl.ch}{Deplancke - EPFL}}
+        {
+        Development of an embedded computer vision platform for high-performance cell detection and hardware accelerated image processing. Creation of a python GUI to control the FPGA board.}
+        {}
+     \twentyitem
+    	{Jun 2019}
+		{Feb 2019}
+        {Laser-based needle-free injection device}
+        {\href{https://lapd.epfl.ch/}{LAPD - EPFL}}
+        {
+        Development of a new solution using optical fibers and microfluidics for needle-free injection into biological tissue in a minimally invasive device. \hfill
+        \href{http://fdeg.ch/Reports/LAPD_Report.pdf}{\textbf{Report \mpoint}}  
+        }
+        {}
+    \twentyitem
+    	{Jun 2019}
+		{Feb 2019}
+        {\textcolor{pblue}{P}etch\hspace{0.2mm}\textcolor{pblue}{\scalebox{1.2}{i}}t - Ball thrower for dogs}
+        {\href{https://edu.epfl.ch/coursebook/en/products-design-systems-engineering-MICRO-406}{Products design \& systems engineering}}
+        {
+        Creation of an innovative ball thrower intended for persons with reduced mobility wishing to play with their dog.\hfill
+        \href{http://fdeg.ch/Reports/PetchIt_Report.pdf}{\textbf{Report}} \textbf{|}
+        \href{https://www.youtube.com/watch?v=D7fW0_doyIM&list=PLYHF3kEHYpgcjWwVfPJ-mZfmi9ZN5I3l9}{\textbf{Video}} \mpoint
+        }
+        {}
+    \twentyitem
+    	{Dec 2019}
+		{Mar 2017}
+        {CleverCockpit - Aircraft navigation assistant}
+        {\href{http://www.aeroformation.ch/Bienvenue.html}{AeroFormation}}
+        {
+        Making of a cheap commercial product for assisting private planes' pilots. Consists of a low consumption battery powered e-Paper display and customizable sensors.\hfill \href{http://clevercockpit.ch/}{\textbf{Product Website \mpoint}}
+        }
+        {}
+        \\
+    %\twentyitem
+   	%	{Jun 2017}
+	%	{Feb 2017}
+    %   {Robot programming, audio signal processing}
+    %  {\href{http://sti.epfl.ch/microtechnique}{SMT - EPFL}}
+    %    {}
+    %    {
+    %    {Control of the "e-puck" robot (DsPIC processor) %using frequency analysis of received sounds (assembly, %C, Matlab). Making of a Windows app as a sound %controller (C\#).%. Sous la supervision du Prof. R. %Boulic
+    %    }
+    %    }
+    %\\   
+    %
+    %\twentyitem
+   	%	{Feb 2016 -}
+	%	{Jun 2016}
+    %    {Linear guidance by flexible elements}
+    %    {\href{http://sti.epfl.ch/microtechnique}{SMT - EPFL}}
+    %    {}
+    %    {
+    %    {Design of a mechanism able to guide a unit during a vertical movement in a perfectly rectilinear way using flexible joints %Sous la supervision du Prof. S. Henein
+    %    }
+    %    }
+    %\\
+\end{twenty}
+
+\vspace{-0.8cm}
+\section{Languages}
+\vspace{-0.1cm}
+\begin{twenty} % Environment for a list with descriptions
+	\vspace{-0.3cm}
+	\twentyitem
+    	{\textnormal{\textbf{\scalebox{1.1}{French}}}}
+        {}
+        {\textnormal{Mother tongue}}
+        {}
+        {}
+        {}
+    \vspace{-0.3cm}
+    \twentyitem
+    	{\textnormal{\textbf{\scalebox{1.1}{German}}}}
+        {}
+        {\textnormal{B2 Certificate, limited professional skills}}
+        {}
+        {}
+        {}
+	\twentyitem
+    	{\textnormal{\textbf{\scalebox{1.1}{English}}}}
+        {}
+        {\textnormal{B2 Certificate, professional skills}}
+        {}
+        {}
+        {}
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+
+\vspace{-0.4cm}
+\section{Hobbies}
+\vspace{-0.1cm}
+\begin{twenty} % Environment for a list with descriptions
+    \vspace{-0.3cm}
+    \twentyitem
+    	{\textnormal{\textbf{\scalebox{1.1}{Sport}}}}
+        {}
+        {\textnormal{Circus, Diabolo, Badminton, Skiing, Biking, Sailing, Judo \hfill\href{https://www.youtube.com/watch?v=k7dW7igYiwI&list=PLYHF3kEHYpgf9jwPGn_NW_Ha0ea9cQ2uj}{\textbf{Videos \mpoint}}}}
+        {}
+        {}
+        {}
+    \vspace{-0.3cm}
+	\twentyitem
+    	{\textnormal{\textbf{\scalebox{1.1}{DIY}}}}
+        {}
+        {\textnormal{3D Printng, Machining, Microcontrollers, PCB, Welding, Assembly}}
+        {}
+        {}
+        {}
+    \twentyitem
+    	{\textnormal{\textbf{\scalebox{1.1}{Video}}}}
+        {}
+        {\textnormal{Aerial drone footage, Filming, Video editing}}
+        {}
+        {}
+        {}
+%Répétiteur de maths et informatique, Moniteur camp aviation (2016)\Juggling, Diabolo, Acrobatics, Performing
+
+	%\twentyitem{<dates>}{<title>}{<organization>}{<location>}{<description>}
+\end{twenty}
+\clearpage
+\end{document} 
+
+
